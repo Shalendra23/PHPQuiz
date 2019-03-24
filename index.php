@@ -30,7 +30,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
             
 ?>
 <h2>Enter your Name Below and Click 'Start Quiz' to Begin</h2>
-<input type="text" name="userName" placeholder="Enter your name : ">
+<input type="text" name="userName" placeholder="Enter your name here ">
        <p><input type="submit" name="startBtn" value="Start Quiz"></p>
 
 </form>
