@@ -32,18 +32,9 @@ function secondPassed() {
 }
 var countdownTimer = setInterval('secondPassed()', 1000);
 
-
-//used for geting the ID of any element clicked on page , was used for building the solution, to be removed
-// function printID(e)
-// {
-//     e = e || window.event;
-//     e = e.target || e.srcElement;
-//     console.log("Name: " + e.name); 
-// }
-
 //used for the Restart quiz button after the Quiz review to send user back to main php page
 function newDoc() {
-window.location.assign("http://quiz:8080/")
+window.location.assign("http://quiz:8080/");
 }
 
 // function below to ensure that timer is visible when user scrolls thru the quiz
