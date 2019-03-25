@@ -47,7 +47,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
                     array('6. Apart from womanizing and producing films, what was the other passion of Howard Hughes?', 'Sleeping', 'Aviation', 'Surfing', 'Singing', 'Aviation'),
                     array('7. What colour are the four stars on the flag of New Zealand?', 'Green', 'Blue', 'Red', 'White', 'Red'),
                     array('8. How many states make up the United States of America?', '50 states', '51 states', '150 states', '31 states', '50 states'),  
-                    array('9. Which English football team plays its home matches at Old Trafford?', '1', 'Manchester United', '3', '4', 'Manchester United'),
+                    array('9. Which English football team plays its home matches at Old Trafford?', 'New Castle', 'Manchester United', 'Man City', 'Liverpool', 'Manchester United'),
                     array('10. Mr. Carson is the name of the butler in which popular TV costume drama?', 'Prsion Break', 'Power', 'Friends', 'Downton Abbey', 'Downton Abbey'),
 
                     array('11. Comedy duo Ant and Dec are originally from which English city?', 'Newcastle upon Tyne', 'London', 'Kent', 'Manchester', 'Newcastle upon Tyne'),
@@ -111,7 +111,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
                     function calcScore($score){
 
                         // switch statment to display message for trhe score groups and also displays the SUPRISE for 0 and 20 scores
-                      $message = 'test';
+                      
                         switch (true) {
                             case ($score == 0):
                             {

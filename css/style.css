@@ -78,7 +78,7 @@ input[type="submit"] {
   }
 
 button{
-    background-color: grey;
+    background-color: rgb(255, 0, 0);
         border: none;
         text-decoration: none;
         color: white;
