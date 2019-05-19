@@ -34,7 +34,7 @@ var countdownTimer = setInterval('secondPassed()', 1000);
 
 //used for the Restart quiz button after the Quiz review to send user back to main php page
 function newDoc() {
-document.location.href = "../index.php";
+document.location.assign("http://quiz:8080/");
 }
 
 // function below to ensure that timer is visible when user scrolls thru the quiz

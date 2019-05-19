@@ -163,7 +163,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 </form>
 
-<script type="text/javascript" src="js/quiz.js"></script>
+<script type="text/javascript" src="quiz.js"></script>
 
 </body>
 </html>
